@@ -50,7 +50,7 @@ window.addEventListener('load',function(){
             //moving the player
             if(this.game.keys.includes(' ')){
                 
-                this.speedY = -this.maxSpeed * 2 ;
+                this.speedY = -this.maxSpeed * 5 ;
                 this.y += this.speedY;
                 }
             //else if(this.game.keys.includes('ArrowDown'))
