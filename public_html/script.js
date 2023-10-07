@@ -24,7 +24,7 @@ window.addEventListener('load',function(){
                 this.game.player.speedY=this.game.player.maxSpeed;}
             });
             window.addEventListener("touchstart", e=>{this.game.keys.push(' ');});
-            window.addEventListener("touchend", e=>{this.game.keys.splice(this.game.keys.indexOf(e.key), 1);this.game.player.speedY=this.game.player.maxSpeed;});
+            window.addEventListener("touchend", e=>{this.game.keys.splice(this.game.keys.indexOf(0), 1);this.game.player.speedY=this.game.player.maxSpeed;});
         }
     }
 
